@@ -4,7 +4,7 @@ Durante el desarrollo me topé con un muro interesante: la pestaña de Test auto
 
 Lejos de rendirme, descubrí que la verdadera forma de probar un contrato es dejando de lado los botones automáticos y escribiendo un cliente real en TypeScript. En cuanto ejecuté mi propio script, el contrato respondió perfectamente. Esto me enseñó que en Web3 no puedes confiar ciegamente en las herramientas visuales, la prueba de fuego siempre será el código hablando con el código.
 
-Si quieres ver el contrato en acción, usa este script en tu cliente. Aquí te dejo cómo ejecutar la creación, lectura, actualización y borrado en un solo flujo:
+Si quieres ver el contrato en acción, usa este script en tu cliente. Aquí te dejo cómo ejecutar la creación, lectura, actualización y borrado lo puedes hacer en un solo flujo o probarlo uno por uno:
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 
